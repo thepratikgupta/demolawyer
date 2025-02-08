@@ -94,6 +94,13 @@ Pip is the standard package installer for Python.
 
 The project consists of three Python files, each corresponding to a different phase of the project:
 
+### To run the App directly
+```
+streamlit run main.py
+```
+
+### To run app in different phases
+
 1. Phase 1: Run the first phase using:
     ```
     streamlit run frontend.py
