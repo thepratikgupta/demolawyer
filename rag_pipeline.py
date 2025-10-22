@@ -3,8 +3,8 @@ from vector_database import faiss_db
 from langchain_core.prompts import ChatPromptTemplate
 
 # Uncomment the following if you're NOT using pipenv
-#from dotenv import load_dotenv
-#load_dotenv()
+from dotenv import load_dotenv
+load_dotenv()
 
 #Step1: Setup LLM (Use DeepSeek R1 with Groq)
 llm_model=ChatGroq(model="deepseek-r1-distill-llama-70b")
